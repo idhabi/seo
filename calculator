@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SEO Calculator</h1>
+        <form id="seo-form">
+            <label for="meta-description">Meta Description Length:</label>
+            <input type="number" id="meta-description" placeholder="Enter character count">
+
+            <label for="keyword-density">Keyword Density (%):</label>
+            <input type="number" id="keyword-density" placeholder="Enter keyword density">
+
+            <label for="alt-tags">Number of Images with Alt Tags:</label>
+            <input type="number" id="alt-tags" placeholder="Enter number of images">
+
+            <button type="button" id="calculate-btn">Calculate SEO Score</button>
+        </form>
+
+        <div id="result">
+            <h2>Your SEO Score:</h2>
+            <p id="score"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
