@@ -27,6 +27,11 @@
             <p id="score"></p>
         </div>
     </div>
+
+    <footer>
+        <p>Powered by <a href="https://www.seosouq.com" target="_blank">SEO Agency Dubai</a></p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
